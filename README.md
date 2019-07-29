@@ -1,16 +1,16 @@
-# Multi-Class Classification and Rating Prediction of Yelp Dataset
+# Multi-Class Classification and Rating Prediction of Yelp Dataset (Kaggle's Yelp Business Rating Prediction competition)
 
 ## Goal: Predict the star rating of a review using only the review text
 
 ## Approach: 
 
-### 1) Split data into training and testing sets, using the review text as the only feature and the star rating as the response
-### 2) Use CountVectorizer to create document-term matrices from X_train and X_test
-### 3) Use multinomial Naive Bayes to predict the star rating for the reviews, calculate the accuracy by confusion matrix
-### 4) Calculate the null accuracy (classification accuracy that could be achieved by always predicting the most frequent class)
-### 5) Evaluating a classification model by "false positives" and "false negatives"
-### 6) Calculate which 10 tokens are the most predictive of 5-star reviews, and which 10 tokens are the most predictive of 1-star reviews
-### 7) Repeat the model building process using all reviews (instead of binary classification: 1-star and 5-star), 5-class classification 
+1) Split data into training and testing sets, using the review text as the only feature and the star rating as the response
+2) Use CountVectorizer to create document-term matrices from X_train and X_test
+3) Use multinomial Naive Bayes to predict the star rating for the reviews, calculate the accuracy by confusion matrix
+4) Calculate the null accuracy (classification accuracy that could be achieved by always predicting the most frequent class)
+5) Evaluating a classification model by "false positives" and "false negatives"
+6) Calculate which 10 tokens are the most predictive of 5-star reviews, and which 10 tokens are the most predictive of 1-star reviews
+7) Repeat the model building process using all reviews (instead of binary classification: 1-star and 5-star), 5-class classification 
 
 ## Result: 
 
