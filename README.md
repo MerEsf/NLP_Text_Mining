@@ -12,7 +12,7 @@
 6) Calculate which 10 tokens are the most predictive of 5-star reviews, and which 10 tokens are the most predictive of 1-star reviews
 7) Repeat the model building process using all reviews (instead of binary classification: 1-star and 5-star), 5-class classification 
 
-## Result: 
+## Results: 
 
 ### Binary Classification: 
 - Accuracy: 92% (null accuracy 82%)
