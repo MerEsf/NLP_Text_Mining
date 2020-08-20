@@ -70,6 +70,10 @@ Given a tweet, decide if it has a positive sentiment or a negative one
 
 Naive Bayes and Logistic Regression
 
+## Data: 
+
+The twitter_samples contains subsets of 5,000 positive tweets, 5,000 negative tweets, and the full set of 10,000 tweets.
+
 ## Results: 
 
 ### Logistic Regression: 
