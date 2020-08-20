@@ -16,14 +16,16 @@ A program that translates English to French
 ### Data: 
 * English embeddings from Google code archive word2vec
 [look for GoogleNews-vectors-negative300.bin.gz](https://code.google.com/archive/p/word2vec/)
-    * You'll need to unzip the file first.
+    
 * and the French embeddings from
 [cross_lingual_text_classification](https://github.com/vjstark/crosslingual_text_classification).
 
 
 # 2) Multi-Class Classification and Rating Prediction of Yelp Dataset (Kaggle's Yelp Business Rating Prediction competition)
 
-## Goal: Predict the star rating of a review using only the review text
+## Goal: 
+
+Predict the star rating of a review using only the review text
 
 ## Approach: 
 
@@ -54,3 +56,27 @@ A program that translates English to French
 - Confusion matrix comments: Almost all 4-star and 5-star reviews are classified as 4 or 5 stars, but they are hard for the model to distinguish between, 1-star, 2-star, and 3-star reviews are most commonly classified as 4 stars, probably because it's the predominant class in the training data
 
 - Classification report comments: Class 1 has low recall, meaning that the model has a hard time detecting the 1-star reviews, but high precision, meaning that when the model predicts a review is 1-star, it's usually correct, Class 5 has high recall and precision, probably because 5-star reviews have polarized language, and because the model has a lot of observations to learn from
+
+
+
+
+# 3) Sentiment Analysis on Tweets (Binary Classification)
+
+## Goal: 
+
+Given a tweet, decide if it has a positive sentiment or a negative one
+
+## Approach: 
+
+Naive Bayes and Logistic Regression
+
+## Results: 
+
+### Logistic Regression: 
+- Accuracy: 99.5% 
+
+### Naive Bayes: 
+- Accuracy: 99.4% 
+- Filter words by Ratio of positive to negative counts
+
+
