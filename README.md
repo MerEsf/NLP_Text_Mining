@@ -1,4 +1,27 @@
-# Multi-Class Classification and Rating Prediction of Yelp Dataset (Kaggle's Yelp Business Rating Prediction competition)
+# 1) Word Translation (Machine Translation)
+
+## Goal: 
+
+A program that translates English to French
+
+## Approach: 
+
+1) The word embeddings data for English and French words
+2) Translations
+3) LSH and document search
+4) Looking up the tweets
+5) Approximate K-NN
+
+
+### Data: 
+* English embeddings from Google code archive word2vec
+[look for GoogleNews-vectors-negative300.bin.gz](https://code.google.com/archive/p/word2vec/)
+    * You'll need to unzip the file first.
+* and the French embeddings from
+[cross_lingual_text_classification](https://github.com/vjstark/crosslingual_text_classification).
+
+
+# 2) Multi-Class Classification and Rating Prediction of Yelp Dataset (Kaggle's Yelp Business Rating Prediction competition)
 
 ## Goal: Predict the star rating of a review using only the review text
 
