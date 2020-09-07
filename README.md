@@ -32,7 +32,7 @@ Implement a model that corrects words that are 1 and 2 edit distances away
 1) Data Preprocessing
 2) String Manipulations
 3) Combining the edits
-4) Minimum Edit distance
+4) Minimum Edit distance (dynamic programming)
 
 
 
