@@ -21,7 +21,22 @@ A program that translates English to French
 [cross_lingual_text_classification](https://github.com/vjstark/crosslingual_text_classification).
 
 
-# 2) Multi-Class Classification and Rating Prediction of Yelp Dataset (Kaggle's Yelp Business Rating Prediction competition)
+# 2) Auto-correct System
+
+## Goal: 
+
+Implement a model that corrects words that are 1 and 2 edit distances away
+
+## Approach: 
+
+1) Data Preprocessing
+2) String Manipulations
+3) Combining the edits
+4) Minimum Edit distance
+
+
+
+# 3) Multi-Class Classification and Rating Prediction of Yelp Dataset (Kaggle's Yelp Business Rating Prediction competition)
 
 ## Goal: 
 
@@ -60,7 +75,7 @@ Predict the star rating of a review using only the review text
 
 
 
-# 3) Sentiment Analysis on Tweets (Binary Classification)
+# 4) Sentiment Analysis on Tweets (Binary Classification)
 
 ## Goal: 
 
